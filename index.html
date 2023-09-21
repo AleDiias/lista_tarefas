@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/tarefa.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+    
+    <section>
+        <div class="add-s">
+          <input type="text" name="prod" id="prod" maxlength="25" placeholder="Adicionar tarefa">
+          <button class="button-41" role="button" onclick="adicionar()"><p>Adicionar</p></button>
+        </div>
+      
+        <div class="l-container">
+          <div class="l-list" id="lista"></div>
+          <button class="button-42" onclick="limparItens()"><p>Limpar</p></button>
+        </div>
+      </section>
+      
+
+    <footer>
+        <p>&copy; Ale Dias</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
